@@ -1,4 +1,4 @@
-Healthcare Appointment No-Show Analysis
+Healthcare Appointment No-Show Prediction
 - Project Overview :
 - Missed medical appointments (no-shows) are a major challenge for healthcare providers, leading to wasted resources and inefficiencies.
 - This project analyzes patient appointment no-show behavior using historical healthcare data and presents actionable insights through an interactive Power BI dashboard.
@@ -32,21 +32,28 @@ MS Word / PDF – Project documentation
 
 > Dashboard Features :
 - KPI cards:
-- Total Appointments
-- Total No-Shows
-- Show Rate (%)
-- No-Show Rate (%)
-- Day-wise performance table (Monday–Sunday)
-- Sparkline trends inside tables
-- Impact of SMS reminders
-- Waiting days vs no-show trend
-- Interactive slicers & button-style filters
+- Total Appointments.
+- Total No-Shows.
+- Show Rate (%).
+- No-Show Rate (%).
+- Day-wise performance table (Monday–Sunday).
+- Sparkline trends inside tables.
+- Impact of SMS reminders.
+- Waiting days vs no-show trend.
+- Interactive slicers & button-style filters.
 
  > Key Insights :
-- SMS reminders significantly reduce appointment no-shows
-- Longer waiting periods increase the probability of no-shows
-- Certain weekdays show higher no-show rates
-- Patient behavior patterns can help optimize scheduling
+- SMS reminders significantly reduce appointment no-shows.
+- Longer waiting periods increase the probability of no-shows.
+- Certain weekdays show higher no-show rates.
+- Patient behavior patterns can help optimize scheduling.
+
+ > Prediction Objective :
+- The goal of this project is to predict whether a patient will miss a scheduled medical appointment based on historical appointment data.
+
+The model predicts:
+- 1 → Patient will NOT show up
+- 0 → Patient will show up
 
 > Recommendations :
 - Increase SMS reminders for high-risk patients
